@@ -37,8 +37,7 @@ tools/install.sh)"
 
 ```sh
 # step 1 - download
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/
-Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # step 2 - installation
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> 
