@@ -29,8 +29,7 @@ xcode-select –install
 - **[Oh-My-Zsh](https://ohmyz.sh/)** for a nicer terminal experience
 
 ```sh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/
-tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 - **[Homebrew](https://brew.sh/)** to make installing/managing packages easier
