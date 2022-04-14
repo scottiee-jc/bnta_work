@@ -39,8 +39,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # step 2 - installation
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> 
-/Users/$(whoami)/.zprofile   
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$(whoami)/.zprofile   
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
