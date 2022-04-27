@@ -39,7 +39,7 @@
 
 ### Below is a code snipet showing how to test the class in the main method
 
-![WIldcards Example](README_IMG/WildcardsTest.png)
+![WIldcards Example](README_IMG/WildcardTest.png)
 
 
 
