@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/_6_lab_enums.iml" filepath="$PROJECT_DIR$/.idea/_6_lab_enums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-enums-solution/lab-enums-solution.iml" filepath="$PROJECT_DIR$/lab-enums-solution/lab-enums-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab-enums-todo/lab-enums-todo.iml" filepath="$PROJECT_DIR$/lab-enums-todo/lab-enums-todo.iml" />
+    </modules>
+  </component>
+</project>
