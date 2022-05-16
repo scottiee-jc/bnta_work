@@ -13,17 +13,15 @@ public class ForEachTest {
                         To help you understand the lambda's syntax
                         You may start with this and use IntelliJ to simplify the expression.
                      */
-                        (person) -> {
-                            System.out.println(person.getName().toUpperCase());
-                        }
+                        person -> System.out.println(person.getName().toUpperCase())
                 );
     }
 
     @Test
     void printOutAllCaps(){
-        PEOPLE
-                .forEach(p -> System.out.println(p.getName().toUpperCase()));
+        PEOPLE.forEach(person -> System.out.println(person.getName().toUpperCase()));
     }
+    // passing 'person' to the fora,ge method to be accessed and printed in upper case
 
     // Time for some practice: print out, in separate tests: lastName, age, Gender.
 }

@@ -1,6 +1,9 @@
 package org.examples.streamapi.model;
 
+import java.util.function.Predicate;
+
 public class Person {
+
     public enum Gender {
         MALE, FEMALE, NON_BINARY, UNKNOWN
     }
@@ -48,4 +51,11 @@ public class Person {
     public void setGender(Gender gender) {
         this.gender = gender;
     }
+
+    public static Predicate<Person> ageMoreThan30 = (person) -> person.getAge() > 30;
+
+    public static Predicate<Person> ageLessThan20 = (person) -> person.getAge() < 20;
+
+    // creating a method for these predicates using lambdas
+    // now we can use these in the test code
 }

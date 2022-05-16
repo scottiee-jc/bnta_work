@@ -1,5 +1,7 @@
 package org.examples.streamapi.model;
 
+import java.util.Optional;
+
 public class PersonDTO {
     private String name;
     private String lastName;
